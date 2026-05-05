@@ -157,9 +157,9 @@ def draw_title_bar():
     instruction_text2 = m_font.render('Стрелки влево/вправо для смены правой руки', True, 'black')
     screen.blit(instruction_text2, (WIDTH - 800, 50))
 
-    title_text = l_font.render('Симулятор пианино', True, 'white')
+    title_text = l_font.render('Симулятор фортепиано', True, 'white')
     screen.blit(title_text, (298, 18))
-    title_text = l_font.render('Симулятор пианино', True, 'black')
+    title_text = l_font.render('Симулятор фортепиано', True, 'black')
     screen.blit(title_text, (300, 20))
 
 
